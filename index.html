@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/favicon.svg" />
+  <!-- Titulo -->
+  <title>Fabian Flores | Portfolio</title>
+
+  <!-- SEO BÁSICO -->
+  <meta name="description"
+    content="Portfolio de Fabian Flores, Ingeniero en Informática y Desarrollador Full Stack especializado en backend, automatización y cloud." />
+  <meta name="author" content="Fabian Flores" />
+
+  <!-- OPEN GRAPH (LinkedIn, WhatsApp, Facebook) -->
+  <meta property="og:title" content="Fabian Flores | Full Stack Developer" />
+  <meta property="og:description"
+    content="Ingeniero en Informática con experiencia en desarrollo web y móvil, backend, automatización y despliegue en cloud." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://TU_DOMINIO_AQUI" />
+  <meta property="og:image" content="https://TU_DOMINIO_AQUI/og-image.png" />
+
+  <!-- TWITTER / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fabian Flores | Full Stack Developer" />
+  <meta name="twitter:description" content="Portfolio profesional de desarrollo web, backend y cloud." />
+  <meta name="twitter:image" content="https://TU_DOMINIO_AQUI/og-image.png" />
+
+</head>
+
+<body class="bg-[#0b0f19] text-neutral-100 antialiased overflow-x-hidden">
+
+  <!-- TOP RIGHT NAV -->
+  <header class="fixed top-6 right-6 z-50">
+    <nav class="flex items-center gap-3 bg-[#121622] border border-neutral-800 rounded-xl px-4 py-2 backdrop-blur">
+
+      <!-- GITHUB -->
+      <a href="https://github.com/fabianflo" target="_blank" rel="noopener"
+        class="flex items-center gap-2 text-sm text-neutral-300 hover:text-purple-400 transition">
+        <i data-lucide="github" class="w-4 h-4"></i>
+        <span class="hidden sm:inline">GitHub</span>
+      </a>
+
+      <span class="w-px h-4 bg-neutral-700"></span>
+
+      <!-- CV -->
+      <a href="/cv/fabian flores_CV.pdf" download="fabian_flores_cv.pdf"
+        class="flex items-center gap-2 text-sm text-neutral-300 hover:text-purple-400 transition">
+        <i data-lucide="download" class="w-4 h-4"></i>
+        <span class="hidden sm:inline">Descargar CV</span>
+      </a>
+
+    </nav>
+  </header>
+
+
+
+  <!-- BACKGROUND -->
+  <div class="fixed inset-0 -z-10">
+    <div class="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-transparent to-cyan-900/20"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.04),transparent_40%)]"></div>
+  </div>
+
+  <!-- HERO -->
+  <section class="min-h-screen flex flex-col items-center justify-center text-center px-6">
+    <p class="text-sm text-neutral-400 mb-4">Hola 👋, soy</p>
+
+    <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight">
+      Fabian <span class="text-purple-400">Flores</span>
+    </h1>
+
+    <p class="mt-6 max-w-xl text-neutral-400">
+      Ingeniero en Informática y Desarrollador Full Stack con experiencia en
+      desarrollo web y móvil, automatización de procesos, arquitectura backend
+      y despliegue en cloud.
+    </p>
+
+    <div class="mt-10 flex gap-4">
+
+
+      <a href="#projects" class="px-6 py-3 bg-purple-600 rounded-md hover:bg-purple-500">
+        Proyectos
+      </a>
+      <a href="#contact" class="px-6 py-3 border border-neutral-700 rounded-md hover:border-neutral-500">
+        Contacto
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="py-32 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
+    <div class="flex justify-center">
+      <div class="w-52 h-52 rounded-full bg-gradient-to-br from-purple-500 to-cyan-400"></div>
+    </div>
+
+    <div>
+      <h2 class="text-3xl font-semibold mb-6">Sobre mí</h2>
+      <p class="text-neutral-400 leading-relaxed">
+        Ingeniero en Informática con sólida experiencia como Desarrollador Full Stack,
+        especializado en la creación y mantenimiento de aplicaciones web y móviles.
+        He trabajado en automatización de procesos, diseño de arquitecturas escalables,
+        integración de pipelines CI/CD y despliegue en entornos cloud.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-32 max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-semibold mb-16">Proyectos</h2>
+
+    <div class="grid gap-12">
+
+      <!-- PROYECTO: MUNICIPALIDAD -->
+      <article class="bg-[#2b2b2b] border border-neutral-800 rounded-2xl overflow-hidden">
+        <div class="grid md:grid-cols-5">
+
+          <!-- IMAGE PREVIEW (40%) -->
+          <div class="md:col-span-2 bg-[#1f1f1f] p-6 flex items-center justify-center">
+            <div class="grid grid-cols-3 gap-3">
+              <img src="/img/municipalidad/muni_splash.png" alt="App municipal - Splash"
+                class="w-full h-50 object-contain rounded-lg bg-black/20" />
+              <img src="/img/municipalidad/muni_main.png" alt="App municipal - Dashboard"
+                class="w-full h-50 object-contain rounded-lg bg-black/20" />
+              <img src="/img/municipalidad/muni_form.png" alt="App municipal - Formulario"
+                class="w-full h-50 object-contain rounded-lg bg-black/20" />
+            </div>
+          </div>
+
+          <!-- CONTENT (60%) -->
+          <div class="md:col-span-3 p-8 flex flex-col justify-between">
+            <div>
+              <div class="flex items-start gap-4 mb-4">
+                <i data-lucide="building-2" class="w-5 h-5 text-neutral-400 mt-1"></i>
+                <div>
+                  <h3 class="text-xl font-semibold">
+                    Plataforma de Gestión Municipal
+                  </h3>
+                  <p class="text-sm text-neutral-400">
+                    Municipalidad de Paine · 2024
+                  </p>
+                </div>
+              </div>
+
+              <p class="text-neutral-300 mb-6 leading-relaxed max-w-2xl">
+                Sistema móvil y web desarrollado para automatizar procesos administrativos
+                internos, mejorar la trazabilidad de la información y reducir tiempos
+                operativos en áreas municipales clave.
+              </p>
+              <p class="text-sm text-neutral-400 mb-4">
+                Rol: levantamiento de requerimientos, diseño de solución, desarrollo full stack,
+                integración backend y despliegue en entorno cloud.
+              </p>
+
+              <p class="text-sm text-neutral-400 mb-6">
+                Infraestructura: despliegue y operación en Railway.
+              </p>
+
+              <!-- TECHNOLOGIES -->
+              <div class="flex flex-wrap gap-2 text-xs font-semibold text-neutral-200">
+                <span class="px-3 py-1 bg-neutral-800 rounded">Ionic</span>
+                <span class="px-3 py-1 bg-neutral-800 rounded">Angular</span>
+                <span class="px-3 py-1 bg-neutral-800 rounded">Django</span>
+                <span class="px-3 py-1 bg-neutral-800 rounded">REST API</span>
+                <span class="px-3 py-1 bg-neutral-800 rounded">Railway</span>
+              </div>
+            </div>
+
+            <!-- ACTION -->
+            <a href="/projects/municipalidad-paine.html"
+              class="inline-flex items-center gap-2 text-sm text-purple-400 hover:text-purple-300 mt-6">
+              Ver más
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+
+
+      <article class="bg-[#2b2b2b] border border-neutral-800 rounded-2xl overflow-hidden">
+        <div class="grid md:grid-cols-5">
+
+          <!-- IMAGE PREVIEW (40%) -->
+          <div class="md:col-span-2 bg-[#1f1f1f] p-6 flex items-center justify-center">
+            <div class="grid grid-cols-1 gap-3">
+              <img src="/img/quelen/glenfruit-bg.jpg" alt="Patio Envase - quelen"
+                class="w-full h-48 object-contain rounded-lg bg-black/20" />
+
+            </div>
+          </div>
+
+          <!-- CONTENT (60%) -->
+          <div class="md:col-span-3 p-8 flex flex-col justify-between">
+            <div>
+              <div class="flex items-start gap-4 mb-4">
+                <i data-lucide="building-2" class="w-5 h-5 text-neutral-400 mt-1"></i>
+                <div>
+                  <h3 class="text-xl font-semibold">
+                    Sistema de Apoyo Operacional para ERP
+                  </h3>
+                  <p class="text-sm text-neutral-400">
+                    Quelen fruit · 2025
+                  </p>
+                </div>
+              </div>
+
+              <p class="text-neutral-300 mb-4 leading-relaxed max-w-2xl">
+                Aplicación web interna para optimizar la recepción y despacho de envases,
+                eliminando planillas manuales y generando documentación digital firmada.
+              </p>
+
+              <p class="text-sm text-neutral-400 mb-4">
+                Rol: levantamiento de requerimientos y desarrollo de la aplicación web.
+              </p>
+
+              <p class="text-sm text-neutral-400 mb-6">
+                Entorno: sistema desplegado y operado en servidor interno de la empresa.
+              </p>
+
+
+              <!-- TECHNOLOGIES -->
+              <div class="flex flex-wrap gap-2 text-xs text-neutral-300 mb-6">
+                <span class="px-3 py-1 bg-neutral-800/80 rounded">PHP</span>
+                <span class="px-3 py-1 bg-neutral-800/80 rounded">Tailwind</span>
+                <span class="px-3 py-1 bg-neutral-800/80 rounded">ERP</span>
+                <span class="px-3 py-1 bg-neutral-800/80 rounded">PDF</span>
+              </div>
+            </div>
+
+            <!-- ACTION -->
+            <a href="/projects/glenfruit-erp.html"
+              class="inline-flex items-center gap-2 text-sm text-purple-400 hover:text-purple-300">
+              Ver más
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+
+
+    </div>
+
+    <div class="mt-10 flex gap-4 items-center justify-center ">
+
+      <a href="#projects" class="px-6 py-3 bg-purple-600 rounded-md hover:bg-purple-500">
+        ver mas
+      </a>
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+  <section class="py-32 max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-semibold mb-16">Habilidades</h2>
+
+    <!-- STACKS -->
+    <div class="mb-16">
+      <h3 class="text-lg font-medium text-neutral-300 mb-6">Stacks</h3>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="terminal" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">Python</p>
+            <p class="text-sm text-neutral-400">Automatización · Backend</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="layers" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">Java</p>
+            <p class="text-sm text-neutral-400">Spring Boot · APIs</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="braces" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">JavaScript</p>
+            <p class="text-sm text-neutral-400">Web · Frontend</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FRAMEWORKS -->
+    <div class="mb-16">
+      <h3 class="text-lg font-medium text-neutral-300 mb-6">Frameworks</h3>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="component" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">Angular</p>
+            <p class="text-sm text-neutral-400">Frontend Development</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="smartphone" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">Ionic</p>
+            <p class="text-sm text-neutral-400">Mobile Apps</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="server" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">Django</p>
+            <p class="text-sm text-neutral-400">Backend Development</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="boxes" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">Spring Boot</p>
+            <p class="text-sm text-neutral-400">Microservices</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="layout" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">React</p>
+            <p class="text-sm text-neutral-400">Frontend Development</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="palette" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">Tailwind CSS</p>
+            <p class="text-sm text-neutral-400">UI Styling</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- TOOLS & CLOUD -->
+    <div>
+      <h3 class="text-lg font-medium text-neutral-300 mb-6">Tools & Cloud</h3>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="container" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">Docker</p>
+            <p class="text-sm text-neutral-400">Containers · DevOps</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="cloud" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">AWS</p>
+            <p class="text-sm text-neutral-400">Cloud Infrastructure</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="cloud-cog" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">Google Cloud</p>
+            <p class="text-sm text-neutral-400">Cloud Services</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="github" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">GitHub</p>
+            <p class="text-sm text-neutral-400">Version Control</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="hard-drive" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">Linux</p>
+            <p class="text-sm text-neutral-400">Servers · Automation</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-[#2b2b2b] border border-neutral-800 rounded-xl p-5">
+          <i data-lucide="git-branch" class="w-5 h-5 text-neutral-400"></i>
+          <div>
+            <p class="font-medium">CI/CD</p>
+            <p class="text-sm text-neutral-400">Pipelines</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-32 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+    <div>
+      <h2 class="text-3xl font-semibold mb-6">Contáctame</h2>
+      <p class="text-neutral-400 mb-4">
+        Si quieres trabajar conmigo o tienes alguna pregunta, escríbeme.
+      </p>
+      <p class="text-sm text-neutral-500">
+        fabianflores0014@gmail.com
+      </p>
+    </div>
+
+    <form class="space-y-4">
+      <input class="w-full bg-neutral-900 border border-neutral-700 p-3 rounded" placeholder="Nombre" />
+      <input class="w-full bg-neutral-900 border border-neutral-700 p-3 rounded" placeholder="Email" />
+      <textarea class="w-full bg-neutral-900 border border-neutral-700 p-3 rounded" placeholder="Mensaje"></textarea>
+      <button class="w-full bg-purple-600 p-3 rounded hover:bg-purple-500">
+        Enviar
+      </button>
+    </form>
+  </section>
+
+  <footer class="py-12 border-t border-neutral-800">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+
+      <!-- LINEA PRINCIPAL -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-2 text-sm text-neutral-400">
+        <span>¿Quieres contactarme directamente?</span>
+        <a href="mailto:fabianflores0014@gmail.com" class="text-purple-400 hover:text-purple-300 transition">
+          fabianflores0014@gmail.com
+        </a>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <p class="text-xs text-neutral-500 mt-4">
+        © 2025 Fabian Flores
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+  <script type="module" src="/src/main.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+
+</body>
+
+</html>
