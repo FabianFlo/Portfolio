@@ -78,8 +78,9 @@
     </h1>
 
     <p class="mt-6 max-w-xl text-neutral-400">
-      Ingeniero en Informática y Desarrollador Full Stack con experiencia en
-      desarrollo web, automatización de procesos, arquitectura backend y despliegue en cloud.
+      Ingeniero en Informática y Desarrollador Full Stack enfocado en backend y automatización,
+      con experiencia creando soluciones productivas que optimizan procesos, reducen carga operativa
+      y mejoran la trazabilidad de la información en entornos reales de negocio.
     </p>
 
     <div class="mt-10 flex gap-4">
@@ -88,19 +89,27 @@
     </div>
   </section>
 
-  <!-- ABOUT -->
   <section class="py-32 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
+
     <div class="flex justify-center">
-      <div class="w-52 h-52 rounded-full bg-gradient-to-br from-purple-500 to-cyan-400"></div>
+      <div
+        class="w-52 h-52 rounded-full bg-gradient-to-br from-purple-500 to-cyan-400 p-1 flex items-center justify-center">
+
+        <img src="/img/yo.png" alt="Fabian Flores"
+          class="w-full h-full rounded-full object-cover object-[80%_15%] bg-[#0b0f19]" />
+
+      </div>
     </div>
 
+    <!-- TEXTO -->
     <div>
       <h2 class="text-3xl font-semibold mb-6">Sobre mí</h2>
       <p class="text-neutral-400 leading-relaxed">
-        Ingeniero en Informática con sólida experiencia como Desarrollador Full Stack,
-        especializado en la creación y mantenimiento de aplicaciones web y móviles.
-        He trabajado en automatización de procesos, diseño de arquitecturas escalables,
-        integración de pipelines CI/CD y despliegue en entornos cloud.
+        Ingeniero en Informática con experiencia como Desarrollador Full Stack,
+        participando en proyectos productivos tanto en sector público como privado.
+        He trabajado desde el levantamiento de requerimientos hasta el despliegue y
+        operación de aplicaciones web y móviles, con foco en backend, automatización
+        y arquitecturas escalables en la nube.
       </p>
     </div>
   </section>
@@ -110,6 +119,59 @@
     <h2 class="text-3xl font-semibold mb-16">Proyectos</h2>
 
     <div class="grid gap-12">
+
+      <!-- ================= PROYECTOS DESTACADOS ================= -->
+      <!-- PIPELINES -->
+      <article class="bg-[#2b2b2b] border border-neutral-800 rounded-2xl overflow-hidden">
+        <div class="grid md:grid-cols-5">
+
+          <!-- VISUAL / PLACEHOLDER -->
+          <div class="md:col-span-2 bg-[#1f1f1f] p-8 flex items-center justify-center">
+            <div class="text-center text-neutral-400">
+              <p class="text-sm uppercase tracking-widest mb-2">Automation & Data</p>
+              <p class="text-lg font-semibold text-neutral-200">Production Pipelines</p>
+              <p class="text-xs mt-2">ETL · Orchestration · Containers</p>
+            </div>
+          </div>
+
+          <!-- CONTENT -->
+          <div class="md:col-span-3 p-8">
+            <h3 class="text-xl font-semibold mb-2">
+              Automatización y Orquestación de Flujos de Datos
+            </h3>
+            <p class="text-sm text-neutral-400 mb-4">
+              Quelen Fruit · Entorno productivo
+            </p>
+
+            <p class="text-neutral-300 mb-4 leading-relaxed max-w-2xl">
+              Diseño y operación de pipelines de datos productivos para la transferencia, transformación y
+              sincronización de información entre sistemas distribuidos.
+            </p>
+
+            <p class="text-neutral-300 mb-4 leading-relaxed max-w-2xl">
+              Los flujos incluyen procesos ETL entre bases de datos heterogéneas
+              (MySQL ↔ PostgreSQL), tareas de scraping controlado y automatización
+              de procesos batch críticos para la operación.
+            </p>
+
+            <p class="text-sm text-neutral-400 mb-6">
+              Responsabilidades: diseño de pipelines, manejo de errores,
+              monitoreo, despliegue y operación continua.
+            </p>
+
+            <div class="flex flex-wrap gap-2 text-xs font-semibold text-neutral-200">
+              <span class="px-3 py-1 bg-neutral-800 rounded">Python</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">Prefect</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">Docker</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">Linux</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">MySQL</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">PostgreSQL</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">ETL</span>
+            </div>
+          </div>
+
+        </div>
+      </article>
 
       <!-- MUNICIPALIDAD -->
       <article class="bg-[#2b2b2b] border border-neutral-800 rounded-2xl overflow-hidden">
@@ -121,7 +183,6 @@
               <img src="/img/municipalidad/muni_main.png" class="rounded-lg" alt="Municipalidad Main" />
               <img src="/img/municipalidad/muni_form.png" class="rounded-lg" alt="Municipalidad Form" />
             </div>
-
           </div>
 
           <div class="md:col-span-3 p-8">
@@ -129,17 +190,17 @@
             <p class="text-sm text-neutral-400 mb-4">Municipalidad de Paine · 2024</p>
 
             <p class="text-neutral-300 mb-6 leading-relaxed max-w-2xl">
-              Sistema móvil y web desarrollado para automatizar procesos administrativos
-              internos, mejorar la trazabilidad de la información y reducir tiempos
-              operativos en áreas municipales clave.
+              Sistema móvil y web desarrollado para automatizar procesos administrativos internos,
+              mejorar la trazabilidad de la información y reducir tiempos operativos en áreas municipales clave.
             </p>
+
             <p class="text-sm text-neutral-400 mb-4">
               Rol: levantamiento de requerimientos, diseño de solución, desarrollo full stack,
               integración backend y despliegue en entorno cloud.
             </p>
 
             <p class="text-sm text-neutral-400 mb-6">
-              Infraestructura: despliegue y operación en Railway.
+              Infraestructura: Railway.
             </p>
 
             <div class="flex flex-wrap gap-2 text-xs font-semibold text-neutral-200">
@@ -176,12 +237,10 @@
             </p>
 
             <p class="text-sm text-neutral-400 mb-6">
-              Entorno: sistema desplegado y operado en servidor interno de la empresa.
+              Entorno: servidor interno de la empresa.
             </p>
 
-
-            <!-- TECHNOLOGIES -->
-            <div class="flex flex-wrap gap-2 text-xs text-neutral-300 mb-6">
+            <div class="flex flex-wrap gap-2 text-xs text-neutral-300">
               <span class="px-3 py-1 bg-neutral-800/80 rounded">PHP</span>
               <span class="px-3 py-1 bg-neutral-800/80 rounded">Tailwind</span>
               <span class="px-3 py-1 bg-neutral-800/80 rounded">ERP</span>
@@ -190,20 +249,124 @@
           </div>
 
         </div>
-
       </article>
-      <div class="mt-10 flex gap-4 items-center justify-center ">
 
-        <a href="#projects" class="px-6 py-3 bg-purple-600 rounded-md hover:bg-purple-500">
-          ver mas
-        </a>
+      <!-- ================= PROYECTOS ADICIONALES (OCULTOS) ================= -->
+
+      <div id="more-projects" class="grid gap-12 hidden transition-all duration-500 ease-in-out">
+
+        <!-- PROYECTO EXTRA 1 -->
+        <!-- FLOWS / DATA ENGINEERING -->
+        <article class="bg-[#2b2b2b] border border-neutral-800 rounded-2xl overflow-hidden">
+          <div class="p-8">
+
+            <h3 class="text-xl font-semibold mb-2">
+              Automatización de Flujos de Datos y Procesos Operativos
+            </h3>
+            <p class="text-sm text-neutral-400 mb-4">
+              Quelen Fruit · Plataforma interna · 2024 – 2025
+            </p>
+
+            <p class="text-neutral-300 mb-6 leading-relaxed max-w-3xl">
+              Diseño, desarrollo y mantenimiento de flujos automatizados para la integración,
+              transformación y sincronización de datos entre sistemas internos y externos.
+              Los procesos fueron implementados para reducir carga operativa manual,
+              asegurar consistencia de datos y mejorar la trazabilidad de la información
+              en entornos productivos.
+            </p>
+
+            <ul class="list-disc list-inside text-neutral-300 space-y-2 mb-6">
+              <li>
+                Desarrollo de flujos ETL para transferencia de datos entre servidores
+                (<strong>MySQL → PostgreSQL</strong>) en entornos aislados.
+              </li>
+              <li>
+                Implementación de procesos de <strong>scraping controlado</strong> para
+                extracción de información desde fuentes externas.
+              </li>
+              <li>
+                Orquestación y monitoreo de flujos mediante <strong>Prefect</strong>,
+                asegurando ejecución programada y manejo de errores.
+              </li>
+              <li>
+                Contenerización completa de los procesos utilizando <strong>Docker</strong>
+                sobre entornos <strong>Linux</strong>.
+              </li>
+              <li>
+                Despliegue y operación de los flujos en infraestructura cloud
+                basada en servicios de <strong>Amazon</strong>.
+              </li>
+            </ul>
+
+            <p class="text-sm text-neutral-400 mb-6">
+              Rol: diseño de arquitectura, desarrollo de flujos, despliegue,
+              monitoreo y mantenimiento en producción.
+            </p>
+
+            <div class="flex flex-wrap gap-2 text-xs font-semibold text-neutral-200">
+              <span class="px-3 py-1 bg-neutral-800 rounded">Python</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">ETL</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">Scraping</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">Prefect</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">Docker</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">Linux</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">MySQL</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">PostgreSQL</span>
+              <span class="px-3 py-1 bg-neutral-800 rounded">AWS</span>
+            </div>
+
+          </div>
+        </article>
+
+
+        <!-- PROYECTO EXTRA 2 -->
+        <article class="bg-[#2b2b2b] border border-neutral-800 rounded-2xl p-8">
+          <h3 class="text-xl font-semibold mb-2">API de Gestión Interna</h3>
+          <p class="text-sm text-neutral-400 mb-4">Proyecto privado</p>
+
+          <p class="text-neutral-300 mb-4">
+            Diseño e implementación de API REST para centralizar operaciones internas
+            y exponer datos de forma segura a aplicaciones cliente.
+          </p>
+
+          <div class="flex gap-2 text-xs">
+            <span class="px-3 py-1 bg-neutral-800 rounded">Django</span>
+            <span class="px-3 py-1 bg-neutral-800 rounded">REST API</span>
+            <span class="px-3 py-1 bg-neutral-800 rounded">PostgreSQL</span>
+          </div>
+        </article>
+
       </div>
 
+      <!-- ================= BOTÓN ================= -->
 
-
+      <!-- <div class="mt-12 flex justify-center">
+        <button id="toggle-projects" class="px-6 py-3 bg-purple-600 rounded-md hover:bg-purple-500 transition">
+          Ver más proyectos
+        </button>
+      </div> -->
 
     </div>
   </section>
+
+
+  <script>
+    const btn = document.getElementById('toggle-projects');
+    const moreProjects = document.getElementById('more-projects');
+
+    btn.addEventListener('click', () => {
+      const isHidden = moreProjects.classList.contains('hidden');
+
+      if (isHidden) {
+        moreProjects.classList.remove('hidden');
+        btn.textContent = 'Ver menos proyectos';
+      } else {
+        moreProjects.classList.add('hidden');
+        btn.textContent = 'Ver más proyectos';
+      }
+    });
+  </script>
+
 
   <!-- SKILLS -->
   <section class="py-32 max-w-6xl mx-auto px-6">
@@ -211,7 +374,7 @@
 
     <!-- STACKS -->
     <div class="mb-16">
-      <h3 class="text-lg font-medium text-neutral-300 mb-6">Stacks</h3>
+      <h3 class="text-lg font-medium text-neutral-300 mb-6">Lenguajes</h3>
 
       <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
 
